@@ -11,7 +11,7 @@ p { font-size: 1rem; font-family: Roboto; font-weight: 300; margin: 10px; }
 .email span:nth-child(2):after { content: "@"; }
 .btn { border-radius: 5px; color: #fff; background-color: #5cb85c; font-family: Roboto; font-weight: 400; display: inline-block; padding: 15px; border: 1px solid #4cae4c; margin-bottom: 15px; }
 .inner-panel { margin: 20px; border-radius: 5px; padding: 40px; }
-a, a:visited, a:active, a.hover { text-decoration: none; color: inherit; }
+a, a:visited, a:active, a.hover { text-decoration: none; color: #5cb85c; display: inline-block; }
 ::-webkit-scrollbar { display: none; opacity: 0; visiblity: hidden; }
 
 /* Background */

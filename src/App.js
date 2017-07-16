@@ -166,7 +166,7 @@ class Content extends Component {
     document.addEventListener('touchmove',  this.handleTouchMove, false);
   }
 
-  componentDidUnmount() {
+  componentWillUnmount() {
     document.removeEventListener('touchstart', this.handleTouchStart);
     document.removeEventListener('touchmove',  this.handleTouchMove);
   }
@@ -236,9 +236,7 @@ class Bio extends Component {
                 <span>Contact me: </span><span>{this.props.data.email}</span><span>{this.props.data.email_domain}</span>
               </p>
               <div className="btn">
-                <a href={this.props.data.resume_href}>
-                  {this.props.data.resume_label}
-                </a>
+                <a href={this.props.data.resume_href}> {this.props.data.resume_label} </a>
               </div>
           </div>
         </div>
@@ -276,6 +274,11 @@ class Education extends Component {
 
 class Experience extends Component {
   render() {
+    function format(bullet) {
+      console.log(bullet);
+      if (typeof(bullet)==="string") return bullet;
+      return <a href={bullet.href}>{bullet.label}</a>;
+    }
     return (
       <div className="one">
         {this.props.data.jobs.map((props) => {
@@ -284,7 +287,7 @@ class Experience extends Component {
               <h3>{props.title} @ {props.company}</h3>
               <h3><span>{props.date_end ? props.date_start + " - " + props.date_end : props.date_start}</span></h3>
               {props.bullets.map((bullet) => {
-                return <p key={getKey()}>{bullet}</p>;
+                return <p key={getKey()}>{format(bullet)}</p>;
               })}
             </div>
           );
@@ -338,11 +341,14 @@ class Projects extends Component {
     return (
       <div className="one">
         {this.props.data.map((props) => {
+          function patent() {
+            if (props.patent_href) return <a href={props.patent_href}>{props.patent_label}</a>;
+          }
           return (
             <div className="project half" key={getKey()}>
               <h2>{props.title}</h2>
               <p>{props.one_liner}</p>
-              <p>{props.desc}</p>
+              <p>{props.desc} {patent()}</p>
               <ul>{props.technologies.map((props) => {
                 return <li key={getKey()}>{props}</li>;
               })}</ul>

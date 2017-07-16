@@ -61,7 +61,8 @@
                      "bullets": [
                          "Front-end Development (Javascript, jQuery, CSS, HTML)",
                          "Back-end Development (Python, Django)",
-                         "Integration of third party tools"
+                         "Integration of third party tools",
+                         { "label": "Side project involving patent pending algorithm", "href": "https://patents.google.com/patent/US20150019568A1" }
                      ]
                   },
                   { 
@@ -180,6 +181,8 @@
                 "title": "Six Degrees",
                 "one_liner": "A tweet crawler for identifying conversation topics.",
                 "desc": "This was a project I developed while working at Readz. It included a crawler that performed topic identification and engagement analysis on a user's tweets in order to determine which topics they discussed most, and with whom. It also included a web-based dashboard that displayed results.",
+                "patent_label": "Patent pending.",
+                "patent_href": "https://patents.google.com/patent/US20150019568A1",
                 "technologies": [
                     "Twitter API",
                     "Python/Django",
