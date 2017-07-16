@@ -1,0 +1,239 @@
+{
+    "header": {
+    },
+
+    "sections": {
+
+        "Bio": {
+            "title": "Welcome to Chris Huber-Lantz' portfolio",
+            "paragraphs": [
+                "I am a web developer with over 5 years experience with HTML, CSS and Javascript. For the past 4 years I have worked as a developer at Readz, a web publishing platform for designing and editing websites. While working at Readz I've done both front and back-end development on a stack comprised of Python/Django, MySQL, Jquery and a custom javascript templating system. In 2012 I graduated with a B.S. in Computer Science and Information Technology from California State Monterey Bay.",
+                "I have worked with a number of front-end, back-end and database systems. I have experience working with MySQL databases using raw SQL as well as ORMs. Additionally, I have experience with NoSQL databases (Amazon DynamoDB, Redis). I have worked on web applications in several back end languages such as Perl, PHP and most recently Python/Django. I have 5 years experience working with javascript, jQuery and am currently learning React.",
+                "I am familiar with configuring and administering common web services such as Apache, Nginx and MySQL. I have experience building virtual servers using Xen, in addition to being familiar with other virtualization technologies such as VMware and VirtualBox."
+            ],
+            "email": "chrishuberlantz",
+            "email_domain": "gmail.com",
+            "resume_href": "./chrishuberlantz_resume.docx",
+            "resume_label": "Download Resume"
+        },
+
+        "Education": {
+            "schools": [
+                {
+                    "title": "California State University: Monterey Bay",
+                    "date": "2010-2012", 
+                    "img": "",
+                    "bullets": [
+                        "Graduated Magna Cum Laude with a B.S. in Computer Science & Information Technology (CSIT) Concentration in Networking and Security",
+                        "Senior project nominated for Outstanding CSIT Capstone Award",
+                        "Recipient of Service Learning Award 2012",
+                        "Dean's List all eligible semisters"
+                    ]
+                },
+                {
+                    "title": "Cabrillo College",
+                    "date": "2009-2010", 
+                    "img": "",
+                    "bullets": [
+                        "Courses in Cisco/Linux Networking and Security",
+                        "Skills Certificate in Linux Systems Administration"
+                    ]
+                },
+                {
+                    "title": "University of California: Santa Cruz",
+                    "date": "2005-2008", 
+                    "img": "",
+                    "bullets": [
+                        "3 years at UCSC Jack Baskin School of Engineering",
+                        "Left in good academic standing"
+                    ]
+                }
+            ]
+        },
+
+        "Experience": {
+             "jobs": [
+                  { 
+                     "company": "Readz/Star Labs Ltd.",
+                     "title": "Web Developer",
+                     "date_start": "March, 2013",
+                     "date_end": "Current",
+                     "bullets": [
+                         "Front-end Development (Javascript, jQuery, CSS, HTML)",
+                         "Back-end Development (Python, Django)",
+                         "Integration of third party tools"
+                     ]
+                  },
+                  { 
+                      "company": "ScratchSpace Inc.",
+                      "title": "Systems Administrator",
+                      "date_start": "September, 2011",
+                      "date_end": "March, 2013",
+                      "bullets": [
+                          "Systems Administration",
+                          "Network Monitoring",
+                          "Perl Scripting",
+                          "Web Application Development"
+                      ]
+                  },
+                  { 
+                      "company": "Synopsys Inc.",
+                      "title": "IT Security Intern",
+                      "date_start": "Summer 2010",
+                      "date_end": "",
+                      "bullets": [
+                          "Developed an RSA token revoking solution using C#, Active Directory and RSA API"
+                      ]
+                  },
+                  { 
+                      "company": "Cabrillo College",
+                      "title": "Lab Assistant",
+                      "date_start": "February 2010",
+                      "date_end": "June 2010",
+                      "bullets": [
+                          "Assisted students with lab assignments",
+                          "Created lab assignment for a Linux security class"
+                      ]
+                   },
+                   { 
+                      "company": "Synopsys Inc.",
+                      "title": "IT Security Intern",
+                      "date_start": "Summer 2009",
+                      "date_end": "",
+                      "bullets": [
+                          "Developed an internal website for security awareness training using VB/C# .NET and Microsoft SharePoint",
+                          "Produced intrusion detection reports for management"
+                      ]
+                   },
+                   { 
+                       "company": "Synopsys Inc.",
+                       "title": "IT Security Intern",
+                       "date_start": "Summer 2007",
+                       "date_end": "",
+                       "bullets": [
+                           "Review and testing of Tipping Point Intrusion Prevention System"
+                       ]
+                   },
+                   { 
+                      "company": "Synopsys Inc.",
+                      "title": "IT Security Intern",
+                        "date_start": "Summer 2006",
+                        "date_end": "",
+                        "bullets": [
+                            "Introductory internship supporting IT Security group"
+                        ]
+                   },
+                   { 
+                       "company": "Cryptine Networks",
+                       "title": "Web Developer",
+                       "date_start": "Summer 2005",
+                       "date_end": "",
+                       "bullets": [
+                           "Developed a web application using PHP, MySQL and the Open Source Vulnerability Database"
+                       ]
+                   }
+             ]
+        },
+
+        "Skills": {
+            "categories": [
+                {
+                    "title": "Web Development",
+                    "skills": [
+                        "Javascript (Jquery, learning React)",
+                        "Python/Django",
+                        "HTML/CSS",
+                        "Responsive Design"
+                    ]
+                },
+                {
+                    "title": "Databases",
+                    "skills": [
+                        "MySQL (Raw SQL and Django ORM)",
+                        "Amazon DynamoDB",
+                        "Redis"
+                    ]
+                },
+                {
+                    "title": "Server Software",
+                    "skills": [
+                        "Webservers (Apache, Nginx)",  
+                        "Amazon Services (S3, Cloudfront, EC2, DynamoDB)",
+                        "Network Monitoring (Nagios, Groundwork)"
+                    ]
+                },
+                {
+                    "title": "Programming Languages",
+                    "skills": [
+                        "Javascript",
+                        "Python",
+                        "Perl",
+                        "Java",
+                        "PHP"
+                    ]
+                }
+            ]
+        },
+
+        "Projects": [
+            { 
+                "title": "Six Degrees",
+                "one_liner": "A tweet crawler for identifying conversation topics.",
+                "desc": "This was a project I developed while working at Readz. It included a crawler that performed topic identification and engagement analysis on a user's tweets in order to determine which topics they discussed most, and with whom. It also included a web-based dashboard that displayed results.",
+                "technologies": [
+                    "Twitter API",
+                    "Python/Django",
+                    "Python Natural Language Toolkit",
+                    "Amazon DynamoDB",
+                    "Redis"
+                ]
+            },
+            { 
+                "title": "Nerve",
+                "one_liner": "A platform for network analysis and intrusion prevention.",
+                "desc": "Nerve was my capstone project at CSUMB. The goal was to create a functional network-based intrusion prevention system capable of being managed by a web-interface. This project involved integrating several open source projects, creating a web-interface, database and back-end daemon to manage them.",
+                "technologies": [
+                    "PHP",
+                    "Nagios",
+                    "MySQL",
+                    "SnortSAM",
+                    "iptables"
+                ]
+            },
+            { 
+                "title": "Servers on Demand",
+                "one_liner": "A web based management system for the rapid creation of virtual machines.",
+                "desc": "Servers on Demand was a project for a class in virtualization at CSUMB. In this project I created a web-interface to act as a front-end to a back-end Perl script created to manage the configuration and booting of Xen based virtual machines. Using the web interface, a user is able to configure/clone and boot a new virtual machine. Once the new virtual machine boots, the Perl script executes configuration commands via SSH and returns a link to the virtual server's apache server.",
+                "technologies": [
+                    "PHP",
+                    "Xen",
+                    "Perl"
+                ]
+            },
+            { 
+                "title": "CDR Spy",
+                "one_liner": "A call data record analyzer for Asterisk Voice Over IP phone systems.",
+                "desc": "This project consisted of building a collector daemon to catch call events from Asterisk and inject them into a MySQL database. The next step was to build a parser script which used custom logic to relate these disparate events into call records which could be analyzed. The last component was a web application which analyzed call information in the database and produced dynamic reports.",
+                "technologies": [
+                    "PHP",
+                    "Perl",
+                    "MySQL"
+                ]
+            },
+            { 
+                "title": "Automated HTTP Monitoring",
+                "one_liner": "Automated network monitoring.",
+                "desc": "This project involved creating a Perl script which periodically crawled websites in order to build a complete list of links for a particular website. Additionally I wrote a Nagios plugin which polled each page to ensure 100% of the site was available. This project also included functionality to automatically generate monitoring configurations when new sites were detected on the production webserver.",
+                "technologies": [
+                    "Nagios",
+                    "Perl"
+                ]
+            }
+        ]
+
+    },
+ 
+    "footer": {
+        "copyright": "© Copyright 2017 Chris Huber-Lantz. All Rights Reserved."
+    }
+}
