@@ -7,8 +7,8 @@
         "Bio": {
             "title": "Welcome to Chris Huber-Lantz' portfolio",
             "paragraphs": [
-                "I am a web developer with over 5 years experience with HTML, CSS and Javascript. For the past 4 years I have worked as a developer at Readz, a web publishing platform for designing and editing websites. While working at Readz I've done both front and back-end development on a stack comprised of Python/Django, MySQL, Jquery and a custom javascript templating system. In 2012 I graduated with a B.S. in Computer Science and Information Technology from California State Monterey Bay.",
-                "I have worked with a number of front-end, back-end and database systems. I have experience working with MySQL databases using raw SQL as well as ORMs. Additionally, I have experience with NoSQL databases (Amazon DynamoDB, Redis). I have worked on web applications in several back end languages such as Perl, PHP and most recently Python/Django. I have 5 years experience working with javascript, jQuery and am currently learning React.",
+                "I am a web developer with over 5 years experience with HTML, CSS and Javascript. For the past 4 years I have worked as a developer at Readz, a web publishing platform for designing and editing websites. While working at Readz I've done both front and back-end development on a stack comprised of Python/Django, MySQL, jQuery and a custom javascript templating system. In 2012 I graduated with a B.S. in Computer Science and Information Technology from California State Monterey Bay.",
+                "I have worked with a number of front-end, back-end and database systems. I have experience working with MySQL databases using raw SQL as well as ORMs. Additionally, I have experience with NoSQL databases (Amazon DynamoDB, Redis). I have worked on web applications in several back-end languages such as Perl, PHP and most recently Python/Django. I have 5 years experience working with javascript, jQuery and am currently learning React.",
                 "I am familiar with configuring and administering common web services such as Apache, Nginx and MySQL. I have experience building virtual servers using Xen, in addition to being familiar with other virtualization technologies such as VMware and VirtualBox."
             ],
             "email": "chrishuberlantz",
@@ -141,7 +141,7 @@
                 {
                     "title": "Web Development",
                     "skills": [
-                        "Javascript (Jquery, learning React)",
+                        "Javascript (jQuery, learning React)",
                         "Python/Django",
                         "HTML/CSS",
                         "Responsive Design"
@@ -180,7 +180,7 @@
             { 
                 "title": "Six Degrees",
                 "one_liner": "A tweet crawler for identifying conversation topics.",
-                "desc": "This was a project I developed while working at Readz. It included a crawler that performed topic identification and engagement analysis on a user's tweets in order to determine which topics they discussed most, and with whom. It also included a web-based dashboard that displayed results.",
+                "desc": "This is a project I developed while working at Readz. It includes a crawler that performed topic identification and engagement analysis on a user's tweets in order to determine which topics they discussed most, and with whom. It also includes a web-based dashboard that displayed results.",
                 "patent_label": "Patent pending.",
                 "patent_href": "https://patents.google.com/patent/US20150019568A1",
                 "technologies": [
