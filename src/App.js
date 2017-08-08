@@ -82,6 +82,7 @@ class Carousel extends Component {
     super(props);
     this.state = { axis: props.axis||"Y" };
     this.calcDims = this.calcDims.bind(this);
+    this.updateIndicator = this.updateIndicator.bind(this);
   }
 
   calcDims(e) {
@@ -95,19 +96,23 @@ class Carousel extends Component {
     });
   }
 
+  updateIndicator(e) {
+  }
+
   componentDidMount() {
-    window.addEventListener("resize", this.calcDims)
+    window.addEventListener("resize", this.calcDims);
     this.calcDims();
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.calcDims)
+    window.removeEventListener("resize", this.calcDims);
   }
 
   render() {
     var self = this;
     return (
       <div className="carousel-wrapper" onClick={this.rotate} ref="carousel">
+        <div id="scroll-indicator">^</div>
         <div className="carousel" style={{transition: this.state.transition, transform: "translateZ(-" + this.state.z + "px) rotate" + this.state.axis + "(-" + this.props.face*(360 / this.props.faces.length) +"deg)"}}>
           {this.props.faces.map((face, i, faces) => {
             return (
@@ -149,6 +154,7 @@ class Nav extends Component {
     return (
       <div className="nav">
         <ul>{items}</ul>
+        <div id="swipe-indicator">Swipe sideways to navigate</div>
       </div>
     );
   }
@@ -275,7 +281,6 @@ class Education extends Component {
 class Experience extends Component {
   render() {
     function format(bullet) {
-      console.log(bullet);
       if (typeof(bullet)==="string") return bullet;
       return <a href={bullet.href}>{bullet.label}</a>;
     }
